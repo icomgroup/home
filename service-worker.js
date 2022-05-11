@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/app-fe/precache-manifest.0ef6d0a2056184fbab736f85ca09e1e1.js"
+  "/precache-manifest.416e3f08bafa704a39e9aba784400790.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "heytab"});
+workbox.core.setCacheNameDetails({prefix: "icom1"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
